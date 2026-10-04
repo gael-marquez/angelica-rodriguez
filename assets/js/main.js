@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
     iframe.src = src.includes("embedded=true") ? src : src + (src.includes("?") ? "&" : "?") + "embedded=true";
     iframe.loading = "lazy";
     iframe.title = box.dataset.formTitle || "Formulario";
-    box.replaceChildren(iframe);
+    box.querySelector(".form-placeholder")?.remove();
+    box.append(iframe);
   });
 
   // Pestañas de formularios (+ soporte para formularios.html#agenda)
