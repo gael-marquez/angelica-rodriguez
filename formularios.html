@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formularios · Angélica Rodríguez</title>
+  <meta name="description" content="Historial de entrenamiento y de nutrición para diseñar tu plan.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="assets/img/favicon.svg" alt="">
+      <span class="brand-name">Angélica Rodríguez<small>Entrenamiento · Nutrición</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="conoceme.html">Conóceme</a>
+      <a href="como-trabajo.html">Cómo trabajo</a>
+      <a href="pagos.html">Planes y pagos</a>
+      <a href="formularios.html" aria-current="page">Formularios</a>
+      <a class="btn btn--accent" href="formularios.html">Empieza tu plan</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap reveal">
+      <p class="crumbs"><a href="index.html">Inicio</a> / Formularios</p>
+      <span class="eyebrow">Formularios</span>
+      <h1>Cuéntame de ti y <em>empezamos</em>.</h1>
+      <p class="lead">Con tu historial diseño un plan hecho a tu medida. Llena el formulario del plan que elegiste; puedes hacerlo aquí mismo.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="note reveal" style="margin-bottom:26px">
+        <p><strong>¿Cuál lleno?</strong> Plan de entrenamiento → historial de entrenamiento. Plan nutricional → historial de nutrición. Entrenamiento + Nutrición → los dos.</p>
+      </div>
+
+      <div class="form-tabs reveal" role="tablist" aria-label="Formularios">
+        <button class="form-tab" role="tab" data-target="entrenamiento" aria-controls="entrenamiento">
+          <span class="n">1</span><strong>Historial de entrenamiento</strong><span class="sub">Condición física, experiencia y objetivos</span>
+        </button>
+        <button class="form-tab" role="tab" data-target="nutricion" aria-controls="nutricion">
+          <span class="n">2</span><strong>Historial de nutrición</strong><span class="sub">Salud, hábitos y estilo de vida</span>
+        </button>
+      </div>
+
+      <div class="form-panel" id="entrenamiento" role="tabpanel">
+        <aside class="form-aside">
+          <h2>Historial de <em>entrenamiento</em></h2>
+          <p>Me permite conocer tu condición física actual, experiencia deportiva, hábitos de entrenamiento y objetivos personales, para diseñar un programa individualizado y adaptado a tus capacidades.</p>
+          <ul>
+            <li>Si ya entrenas, ten a la mano tus pesos o marcas actuales.</li>
+            <li>No hay respuestas incorrectas: entre más me cuentes, mejor queda tu plan.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#" data-open-form="entrenamiento">Abrir en otra pestaña ↗</a>
+        </aside>
+        <div class="form-embed" data-form-src="https://docs.google.com/forms/d/e/1FAIpQLSeCQCMdHIDBvMdz9vA1AS-V3XEQWgvq-gIBjMn4nK_s_GwLTQ/viewform" data-form-title="Historial de entrenamiento">
+          <div class="form-placeholder"><div class="inner"><div class="icon">🏋️‍♀️</div><h3>Cargando formulario…</h3></div></div>
+        </div>
+      </div>
+
+      <div class="form-panel" id="nutricion" role="tabpanel" hidden>
+        <aside class="form-aside">
+          <h2>Historial de <em>nutrición</em></h2>
+          <p>Me permite conocer tu estado actual de salud, hábitos y estilo de vida para diseñar tu plan de alimentación y recomendaciones personalizadas para tu bienestar.</p>
+          <ul>
+            <li>Si tienes estudios de laboratorio recientes, tenlos a la mano.</li>
+            <li>Cuéntame qué te gusta comer: tu plan se arma con eso.</li>
+          </ul>
+          <a class="btn btn--ghost" href="#" data-open-form="nutricion">Abrir en otra pestaña ↗</a>
+        </aside>
+        <div class="form-embed" data-form-src="https://docs.google.com/forms/d/e/1FAIpQLSet4QHHiyg0cqvQwcDfxAyQ_Y6M7-B-z0oc3favUzVTxkN-dQ/viewform" data-form-title="Historial de nutrición">
+          <div class="form-placeholder"><div class="inner"><div class="icon">🥗</div><h3>Cargando formulario…</h3></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Después de enviarlo</span>
+        <h2>Así <em>arrancamos</em>.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><div><h3>Realiza tu transferencia</h3><p>Con los datos de <a href="pagos.html#pago">Planes y pagos</a>, usando tu nombre y plan como concepto.</p></div><span class="tag">Pago</span></li>
+        <li class="step reveal"><div><h3>Envíame tu comprobante</h3><p>Por WhatsApp, para confirmar tu lugar.</p></div><span class="tag">WhatsApp</span></li>
+        <li class="step reveal"><div><h3>Recibe tu plan</h3><p>Con tu historial preparo tu plan y te cargo tu rutina en Hevy.</p></div><span class="tag">¡Listo!</span></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <h2>Tu mejor versión, <em>a tu ritmo</em>.</h2>
+        <p style="opacity:.75;max-width:40ch">Coach de entrenamiento con certificación en nutrición deportiva. Atención en línea · Ciudad. <!-- EDITAR --></p>
+      </div>
+      <div>
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="conoceme.html">Conóceme</a></li>
+          <li><a href="como-trabajo.html">Cómo trabajo</a></li>
+          <li><a href="pagos.html">Planes y pagos</a></li>
+          <li><a href="formularios.html">Formularios</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/520000000000">WhatsApp</a></li>
+          <li><a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></li>
+          <li><a href="https://instagram.com/">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="motto-row"><span>Entrena</span><span>Disfruta lo que comes</span><span>Logra tus objetivos</span></div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Angélica Rodríguez · Entrenamiento y nutrición.</span>
+      <span>Consulta a tu médico antes de iniciar un programa de ejercicio.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/520000000000" aria-label="Escríbeme por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.4z"/></svg>
+</a>
+
+</body>
+</html>
