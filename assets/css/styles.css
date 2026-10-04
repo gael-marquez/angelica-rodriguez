@@ -706,6 +706,7 @@ p { margin: 0 0 1em; }
   font-size: .82rem; font-weight: 600; box-shadow: var(--shadow);
 }
 .arch img { object-position: center 30%; }
+.photo-frame figcaption.cap-tr { left: auto; bottom: auto; right: 14px; top: 14px; }
 
 .story-media { display: grid; grid-template-columns: 1fr; gap: 18px; position: sticky; top: 110px; align-self: start; }
 .story-media .photo-frame { aspect-ratio: 16 / 10; }
@@ -742,7 +743,7 @@ p { margin: 0 0 1em; }
 .cert p { margin: 0; font-size: .9rem; color: var(--ink-soft); }
 .cert .see { display: inline-block; margin-top: .7em; font-size: .85rem; font-weight: 600; color: var(--leaf); }
 .cert--studying { grid-template-columns: 1fr; background: var(--sun-soft); border-color: transparent; }
-@media (max-width: 760px) { .certs { grid-template-columns: 1fr; } .cert { grid-template-columns: 90px 1fr; } .cert img { width: 90px; } }
+@media (max-width: 760px) { .certs { grid-template-columns: 1fr; } .cert { grid-template-columns: 90px 1fr; } .cert img { width: 90px; } .cert--studying { grid-template-columns: 1fr; } }
 
 /* Método: aprender a comer */
 .method-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
